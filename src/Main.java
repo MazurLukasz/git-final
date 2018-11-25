@@ -4,11 +4,9 @@ public class Main {
 
         System.out.println("GIT!");
 
-        System.out.println("10");
-        System.out.println("8");
-        System.out.println("6");
-        System.out.println("4");
-        System.out.println("2");
-        System.out.println("0");
+        for (int i = 10; i >= 0; i-=2) {
+            System.out.println(i);
+
+        }
     }
 }
